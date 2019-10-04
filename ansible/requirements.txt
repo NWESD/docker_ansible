@@ -1,0 +1,13 @@
+ansible
+ansible-cmdb
+ansible-lint
+cryptography
+dnspython
+docker
+netaddr
+pykerberos
+pyOpenSSL
+pywinrm
+requests-credssp
+requests-kerberos
+yamllint
