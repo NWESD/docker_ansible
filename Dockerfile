@@ -15,8 +15,8 @@ RUN </dev/null adduser --quiet --disabled-password --gecos '' --uid 1000 ansible
  && </dev/null adduser --quiet ansible sudo
 
 RUN  wget -nv -O /tmp/bw-linux.zip \
-     https://github.com/bitwarden/cli/releases/download/v1.7.4/bw-linux-1.7.4.zip \
-  && echo "65cc78775e2639d19c81066b6a9536c8c6cba258a0a3dd04f51729f265dd9bc3  /tmp/bw-linux.zip" | \
+     https://github.com/bitwarden/cli/releases/download/v1.8.0/bw-linux-1.8.0.zip \
+  && echo "7433c7b3c2adb82f19efa85b0c5e33227e1e18ff8db4143a8f835e07dd92244a  /tmp/bw-linux.zip" | \
      sha256sum --check \
   && cd /usr/local/bin \
   && unzip /tmp/bw-linux.zip bw \
