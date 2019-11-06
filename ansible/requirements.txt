@@ -5,6 +5,7 @@ cryptography
 dnspython
 docker
 netaddr
+paramiko
 pykerberos
 pyOpenSSL
 pywinrm
